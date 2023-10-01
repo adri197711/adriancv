@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background: url(./img/fibra.jpg);
-}
-
 h1 {
     font-size: 36px;
     color: azure;
@@ -56,16 +52,17 @@ nav a:hover {
 
 
 aside {
+   
     margin-top: 20px;
-    
     width: 100%;
     display: flex;
     flex-direction: row;
+   
     background: linear-gradient(lightgreen, lightseagreen);
+   
     justify-content: center;
     padding: 20px 40px 10px 20px;
     float: left;
-    background: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%);
 }
 
@@ -211,7 +208,7 @@ section {
 
 section:nth-child(odd) {
     background-image: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
-    filter: blur(100%)
+    filter: blur(100%);
 }
 
 .foto1 {
@@ -404,7 +401,7 @@ textarea {
 h4 {
     margin: 5px;
     font-size: 20px;
-    color:cornflowerblue;
+    color: cornflowerblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: #27e250 solid 1px;
 }
