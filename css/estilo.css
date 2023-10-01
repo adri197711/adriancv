@@ -62,7 +62,7 @@ aside {
     justify-content: center;
     padding: 20px 40px 10px 20px;
     float: left;
-    background-image: url(./img/fibra.jpg);
+    background-image: url(https://adri197711.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%);
 }
 
@@ -207,7 +207,7 @@ section {
 }
 
 section:nth-child(odd) {
-    background-image: url(https://github.com/adri1977.github.io/adriancv/img/fibra.jpg);
+    background-image: url(https://adri197711.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%)
 }
 
@@ -250,7 +250,7 @@ section:nth-child(odd) {
 }
 
 #exper {
-    background: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
+    background-image: url(https://adri197711.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%);
 }
 
