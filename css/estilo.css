@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-image: url(https://adri197711.github.io/adriancv/img/fibra.jpg);
+}
+        
 
 h1 {
     font-size: 36px;
