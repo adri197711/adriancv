@@ -61,7 +61,7 @@ aside {
     justify-content: center;
     padding: 20px 40px 10px 20px;
     float: left;
-    background: url(./img/jj-ying-8bghKxNU1j0-unsplash.jpg);
+    background: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%);
 }
 
@@ -206,7 +206,7 @@ section {
 }
 
 section:nth-child(odd) {
-    background-image: url(./img/markus-spiske-iar-afB0QQw-unsplash.jpg);
+    background-image: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%)
 }
 
@@ -249,7 +249,7 @@ section:nth-child(odd) {
 }
 
 #exper {
-    background: url(./img/jj-ying-8bghKxNU1j0-unsplash.jpg);
+    background: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%);
 }
 
@@ -269,7 +269,7 @@ p {
     align-items: center;
     justify-content: space-around;
     background: linear-gradient(black, gray);
-    background: url(./img/jj-ying-8bghKxNU1j0-unsplash.jpg);
+    background: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%);
 }
 
@@ -417,7 +417,6 @@ i {
 i:hover {
     font-size: 50px;
     color: blue;
-
 }
 
 .icono {
