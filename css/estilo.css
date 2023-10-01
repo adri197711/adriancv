@@ -61,7 +61,7 @@ aside {
     justify-content: center;
     padding: 20px 40px 10px 20px;
     float: left;
-    background: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
+    background-image: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%);
 }
 
