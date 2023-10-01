@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+    <style>
+        html {
+  scroll-behavior: smooth;
+}
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -137,9 +141,9 @@
 
         <article>
             <div class="edu">
-                <div class="edu">
+                
                     <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2>
-                </div>
+                
                 <div class="foto">
                     <ul>
                         <li>Ticmas. Introduccion Desarrollo Front End. 2023</li>
@@ -210,7 +214,7 @@
                     <textarea type="text" name="message" id="message" cols="40" rows="5" id="message"
                         placeholder="Mensaje"></textarea><br>
                     <div class="enviar">
-                        <button type="submit" id="btnenviar" name="botonenviar">enviar</button>
+                        <button type="submit" id="btnenviar" name="btnenviar">enviar</button>
                     </div>
                 </div>
             </form>
@@ -221,14 +225,12 @@
                 <div class="icono">
 
                     <h4>Redes Sociales</h4>
-
-                    <button id="miboton">Ver direccion E-mail</button>
-
+                    <button id="boton" type="button" >Ver Direccion E-mail</button>
                     <a href="https://www.Facebook.com"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.Instagram.com"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.Twitter.com"><i class="fa-brands fa-twitter"></i>
-                        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
 
                 </div>
 
@@ -240,22 +242,13 @@
     </footer>
 
     <script>
+        document.getElementById("boton").addEventListener("click", verEmail);
 
-        const miboton=document.getElementById("miboton");
-        miboton.addEventListener("click", verCorreo);
+        function verEmail() {
+         document.getElementById("boton").innerHTML = "adrianclavario11@gmail.com";
+        }      
 
-        function verCorreo() {
-            document.getElementById("miboton").innerHTML = "adrianclavario@gmail.com";
-        });
-        
-        const form = document.getElementById('datosform');
-            form.addEventListener('submit', function(e)){
-                e.preventDefault();
-                let formdatos = new FormData(form);
-           
-            });
-
-    </script>
+</script>
 </body>
 
 </html>
