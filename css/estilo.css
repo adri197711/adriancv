@@ -206,7 +206,7 @@ section {
 }
 
 section:nth-child(odd) {
-    background-image: url(https://adri1977.github.io/adriancv/img/fibra.jpg);
+    background-image: url(https://github.com/adri1977.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%)
 }
 
