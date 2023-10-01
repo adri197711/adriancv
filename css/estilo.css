@@ -40,6 +40,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    box-sizing: border-box;
 }
 
 nav a {
@@ -48,6 +49,7 @@ nav a {
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
+    box-sizing: border-box;
 }
 
 nav a:hover {
@@ -66,7 +68,7 @@ aside {
     padding: 20px 40px 10px 20px;
     float: left;
     background: url(https://adri197711.github.io/adriancv/img/fibra.jpg);
-    
+    box-sizing: border-box;
 }
 
 .foto {
@@ -77,6 +79,7 @@ aside {
     flex-direction: column;
     float: left;
     padding: 50px 30px;
+    box-sizing: border-box;
 }
 
 .foto :hover {
@@ -96,18 +99,19 @@ aside {
     background: linear-gradient(aquamarine, aliceblue);
     padding: 10px 20px 20px 40px;
     float: left;
+    box-sizing: border-box;
 }
 
 .aside1 {
     margin-top: 50px;
     width: 60%;
-
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     background: linear-gradient(aquamarine, aliceblue);
     padding: 0px 20px 20px 40px;
     float: left;
+    box-sizing: border-box;
 }
 
 
@@ -207,6 +211,7 @@ section {
     justify-content: center;
     align-items: center;
     background: linear-gradient(grey, lightgreen);
+    box-sizing: border-box;
 }
 
 section:nth-child(odd) {
@@ -221,6 +226,7 @@ section:nth-child(odd) {
     float: left;
     align-items: center;
     background: linear-gradient(grey, black);
+    box-sizing: border-box;
 }
 
 .foto2 {
@@ -230,6 +236,7 @@ section:nth-child(odd) {
     float: left;
     padding: 20px;
     background: linear-gradient(rgb(143, 180, 178), lightgreen);
+    box-sizing: border-box;
 }
 
 .foto3 {
@@ -239,6 +246,7 @@ section:nth-child(odd) {
     padding: 20px;
     background: linear-gradient(aquamarine, aliceblue);
     float: left;
+    box-sizing: border-box;
 }
 
 .experiencia {
@@ -250,6 +258,7 @@ section:nth-child(odd) {
     justify-content: calc(width - max-width);
     align-items: center;
     background: linear-gradient(lightgreen, grey);
+    box-sizing: border-box;
 }
 
 #exper {
@@ -275,12 +284,14 @@ p {
     background: linear-gradient(black, gray);
     background: url(https://adri197711.github.io/adriancv/img/fibra.jpg);
     filter: blur(100%);
+    box-sizing: border-box;
 }
 
 .edu h2 {
 padding-top: 20px;
     color: whitesmoke;
     font-size: 30px;
+    box-sizing: border-box;
 }
 
 .webs {
@@ -291,6 +302,7 @@ padding-top: 20px;
     justify-content: flex-end;
     align-items: center;
     border: 50px;
+    box-sizing: border-box;
 }
 
 .webs span {
@@ -307,6 +319,7 @@ article {
     width: 100%;
     display: flex;
     background: black;
+    box-sizing: border-box;
 }
 
 
@@ -320,6 +333,7 @@ article {
     color: aliceblue;
     padding: 20px 20px;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .contacto {
@@ -330,6 +344,7 @@ article {
     color: aliceblue;
     padding: 20px;
     margin: 0;
+    box-sizing: border-box;
 }
 
 form {
@@ -340,6 +355,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 form h2 {
@@ -382,6 +398,7 @@ label {
 
 textarea {
     width: 100%;
+    box-sizing: border-box;
 }
 
 #btnenviar {
@@ -392,7 +409,9 @@ textarea {
     justify-content: flex-end;
     padding: 5px 10px;
     font-size: 18px;
+    box-sizing: border-box;
 }
+
 
 .redes {
     height: 100vh;
@@ -405,6 +424,7 @@ textarea {
     align-items: stretch;
     color: rgb(17, 91, 228);
     font-size: 40;
+    box-sizing: border-box;
 }
 
 h4 {
@@ -436,6 +456,7 @@ i:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    box-sizing: border-box;
 
 }
 
