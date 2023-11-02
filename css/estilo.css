@@ -470,6 +470,23 @@ footer {
     text-decoration: none;
 }
 
+<<<<<<< Updated upstream
+@media (max-width: 600px) {
+=======
+@media screen and (max-width: 600px) {
+>>>>>>> Stashed changes
+
+
+
+    
+}
+<<<<<<< Updated upstream
+@media screen and(max-width: 500px)
+.circulos{
+    display: none;
+}
+=======
+>>>>>>> Stashed changes
 /** animacion del circulo de progreso*/
 @keyframes anim1 {
     100% {
