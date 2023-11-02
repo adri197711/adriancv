@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <style>
         html {
-  scroll-behavior: smooth;
-}
+            scroll-behavior: smooth;
+        }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +18,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <body>
@@ -60,7 +60,7 @@
                     un diseño con estilo prolijo y agradable.</p><br>
 
                 <p> Me interesa poder aplicar mis conocimientos tecnológicos
-                    para combinarlos con las actividades que me apasionan 
+                    para combinarlos con las actividades que me apasionan
                     como la música. </p>
 
                 <ul class="personal">
@@ -76,7 +76,6 @@
 
     </aside>
     <article>
-
         <div class="circulos">
             <h2>Tecnologías</h2>
             <div class="circular-progress">
@@ -87,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-                <svg width="160px" height="160px">
+                <svg width="200px" height="200px">
                     <defs>
                         <lineargradient id="GradientColor-1">
                             <stop offset="0%" stop-color="#F6F72D" />
@@ -106,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-                <svg width="160px" height="160px">
+                <svg width="200px" height="200px">
                     <defs>
                         <lineargradient id="GradientColor-2">
                             <stop offset="0%" stop-color="#F72D6A" />
@@ -125,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <svg width="160px" height="160px">
+                <svg width="200px" height="200px">
                     <defs>
                         <lineargradient id="GradientColor-3">
                             <stop offset="0%" stop-color="#3C2DF7" />
@@ -136,15 +135,15 @@
                 </svg>
             </div>
         </div>
-    </article>
 
+    </article>
     <section id="educa">
 
         <article>
             <div class="edu">
-                
-                    <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2>
-                
+
+                <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2>
+
                 <div class="foto">
                     <ul>
                         <li>Ticmas. Introducción Desarrollo Front End. 2023</li>
@@ -155,7 +154,7 @@
                 </div>
 
                 <div class="foto">
-                    <h3 class="foto1">Tecnología utilizada en esta web</h3>
+                    <h3 id="int" class="foto1">Tecnología utilizada en esta web</h3>
                     <img src="./img/logos.png" alt="logos web" width="350px" height="200px">
                 </div>
 
@@ -171,10 +170,10 @@
             <button a download="CV Adrian Clavario" href="cvadri.png">Descargar CV</button></a>
             <div>
                 <div class="foto3">
-                    <p>Mordor SA<br><br>Empleado data entry y operador windows</p>
+                    <p>Peñaflor S.A.<br><br>Empleado data entry y operador windows</p>
                 </div>
                 <div class="foto2">
-                    <p>Ali inc<br><br>Encargado de Recursos Humanos y
+                    <p>Repcort<br><br>Encargado de Recursos Humanos,
                         manejo de bases de datos y registros de empleados.
                     </p>
                 </div>
@@ -221,17 +220,14 @@
             </form>
 
             <div class="redes">
-
-
                 <div class="icono">
-
-                    <h4>Redes Sociales</h4>
-                    <button id="boton" type="button" >Ver Dirección E-mail</button>
+                    <h4 id="inter">Redes Sociales</h4>
+                    <button id="boton" type="button">Ver Dirección E-mail</button>
                     <a href="https://www.Facebook.com"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.Instagram.com"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.Twitter.com"><i class="fa-brands fa-twitter"></i>
-                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
 
                 </div>
 
@@ -243,13 +239,37 @@
     </footer>
 
     <script>
+        function cambiarColor() {
+            let a = document.getElementById("int");
+
+            if (a.style.color == 'cornflowerblue') {
+                a.style.color = 'white';
+            } else {
+                a.style.color = 'cornflowerblue';
+            }
+        }
+        setInterval(cambiarColor, 1000);
+
+        function cambiaColor() {
+            let b = document.getElementById("inter");
+
+            if (b.style.color == 'cornflowerblue') {
+                b.style.color = 'white';
+            } else {
+                b.style.color = 'cornflowerblue';
+            }
+        }
+        setInterval(cambiaColor, 1000);
+
         document.getElementById("boton").addEventListener("click", verEmail);
 
         function verEmail() {
-         document.getElementById("boton").innerHTML = "adrianclavario11@gmail.com";
-        }      
+            document.getElementById("boton").innerHTML = '<h3>adrianclavario11@gmail.com</h3>';
+        };
 
-</script>
+
+
+    </script>
 </body>
 
 </html>

@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.main{
+    width: 100%;
+}
 
 
 h1 {
@@ -113,19 +115,18 @@ aside {
     float: left;
     box-sizing: border-box;
 }
-
-
 .circulos {
     padding: 10px;
     width: 100%;
     background: linear-gradient(grey, black);
     display: flex;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 
 .circular-progress {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height:160px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -141,7 +142,7 @@ aside {
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    padding: 20px;
+    padding: 21px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
         -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
@@ -149,8 +150,8 @@ aside {
 .inner-1,
 .inner-2,
 .inner-3 {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 50px;
     border-radius: 50%;
     display: flex;
     margin: auto;
@@ -167,7 +168,7 @@ aside {
 #number-2,
 #number-1 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: whitesmoke;
     text-align: center;
 }
@@ -175,7 +176,7 @@ aside {
 #circle-1 {
     fill: none;
     stroke: url(#GradientColor-1);
-    stroke-width: 15px;
+    stroke-width: 10px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
     animation: anim1 2s linear forwards;
@@ -184,7 +185,7 @@ aside {
 #circle-2 {
     fill: none;
     stroke: url(#GradientColor-2);
-    stroke-width: 15px;
+    stroke-width: 10px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
     animation: anim2 2s linear forwards;
@@ -193,7 +194,7 @@ aside {
 #circle-3 {
     fill: none;
     stroke: url(#GradientColor-3);
-    stroke-width: 15px;
+    stroke-width: 10px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
     animation: anim3 2s linear forwards;
@@ -204,7 +205,6 @@ svg {
     top: 0;
     left: 0;
 }
-
 section {
     min-height: 100vh;
     display: flex;
@@ -470,26 +470,23 @@ footer {
     text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 @media (max-width: 600px) {
+=======
+@media screen and (max-width: 600px) {
+>>>>>>> Stashed changes
 
-    nav,
-    aside,
-    .circulos,
-    .aside1,
-    .foto,
-    .foto1,
-    .webs,
-    .edu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
+
+
+    
 }
+<<<<<<< Updated upstream
 @media screen and(max-width: 500px)
 .circulos{
     display: none;
 }
+=======
+>>>>>>> Stashed changes
 /** animacion del circulo de progreso*/
 @keyframes anim1 {
     100% {
